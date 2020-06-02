@@ -439,7 +439,7 @@ function post_gifo(form) {
         json: true,
 
     };
-    fetch(`http://upload.giphy.com/v1/gifs?api_key=${api_key}`, parametros)
+    fetch(`https://upload.giphy.com/v1/gifs?api_key=${api_key}`, parametros)
 
         .then((response) => {
             return response.json();

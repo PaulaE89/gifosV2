@@ -36,7 +36,7 @@ function create_my_images() {
 }
 
 function trending() {
-    const found = fetch('http://api.giphy.com/v1/stickers/trending?api_key=pDbe98unNhbtcnfymALov2ljqZoF2Ztf&limit=' + gifs)
+    const found = fetch('https://api.giphy.com/v1/stickers/trending?api_key=pDbe98unNhbtcnfymALov2ljqZoF2Ztf&limit=' + gifs)
         .then((response) => {
             return response.json();
         }).then((response) => {
@@ -134,7 +134,7 @@ function filter_search(e) {
 
 
 
-    fetch('http://api.giphy.com/v1/gifs/search?api_key=pDbe98unNhbtcnfymALov2ljqZoF2Ztf&limit=8&q=' + filter)
+    fetch('https://api.giphy.com/v1/gifs/search?api_key=pDbe98unNhbtcnfymALov2ljqZoF2Ztf&limit=8&q=' + filter)
         .then((response) => {
             return response.json();
         }).then((response) => {
@@ -175,7 +175,7 @@ function delete_information() {
 
 function list_suggestion() {
 
-    fetch('http://api.giphy.com/v1/tags/related/' + filter + '?api_key=pDbe98unNhbtcnfymALov2ljqZoF2Ztf')
+    fetch('https://api.giphy.com/v1/tags/related/' + filter + '?api_key=pDbe98unNhbtcnfymALov2ljqZoF2Ztf')
         .then((response) => {
             return response.json();
         }).then((response) => {
