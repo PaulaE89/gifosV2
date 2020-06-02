@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/6fa897ccd6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style_nigth.css" />
+    <link id="estilos" rel="stylesheet" href="./css/style.css" />
+    <title>Bienvenidos/as a Guifos.com!..... Donde los gifs estan ///////</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+            <p>¡Bienvenidos/as a Guifos.com!--------- Donde los gifs están.////// Número de visitas:12.765.083</p>
+        </div>
+        <section class="action_gifs">
+            <div class="create_gifs">
+                <div class="logo">
+                </div>
+                <div class="prueba">
+                    <button class="button_create" id="button_create">Crear Guifos</button>
+                    <div class="dropdown">
+                        <button class="dropbtn"> Elegir tema
+                        </button>
+                        <div class="dropdown-content" id="dropdown-content">
+                            <a href="#" class="myButton" id="sailor_day">Sailor Day</a>
+                            <a href="#" class="myButton" id="sailor_night">Sailor night</a>
+                        </div>
+                    </div>
+                    <button class="arrow fas fa-sort-down" id="arrow_dropdown"></button>
+                    <button class="title"> Mis Guifos </button>
+                </div>
+            </div>
+        </section>
+        <section class="search_gifs" id="search_gifs">
+            <div>
+                <form id="searchbox" action="get">
+                    <h1 class="title_search">Buscar</h1>
+                    <input class="search bar" type="text"
+                        placeholder="Busca gif, hashtas, temas, busca lo que quieras..." id="input_search_gifs"
+                        name="pruebaa">
+                    <button class="search-btn" type="button" id="search-btn"> <img src="./assets/lupa.svg" alt=""
+                            id="glass">Buscar</button>
+                </form>
+                <div class="search_result" id="show_result_gifs">
+                    <button class="button_search">Cats</button>
+                    <button class="button_search">Dogs</button>
+                    <button class="button_search">Coronavirus</button>
+                </div>
+                <div class="buttons_suggestion" id="buttons_suggestion">
+                </div>
+            </div>
+        </section>
+        <section class="advice" id="advice">
+            <input class="suggestion" type="text" id="fname" name="suggestion" placeholder="Hoy te sugerimos:" readonly>
+
+            <div class="all_cards">
+
+            </div>
+        </section>
+        <section class="tendencias" id="trendings">
+            <input class="suggestion" id="fname_2" name="trending_suggestion" placeholder="Tendencias:" readonly>
+            <div class="card_tendencias" id="tendencias">
+            </div>
+
+        </section>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

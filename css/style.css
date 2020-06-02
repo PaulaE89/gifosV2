@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #FCF3FD;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header p {
+  width: 100%;
+  height: 23px;
+  margin: 1px;
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  box-shadow: 0 1px 0 0 #110038;
+}
+
+.action_gifs {
+  width: 100%;
+  height: 115px;
+}
+
+.action_gifs .create_gifs {
+  padding: 39px 0px 19px 100px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.action_gifs .logo {
+  background-image: url(../assets/gifOF_logo.png);
+  background-repeat: no-repeat;
+  height: 64px;
+  width: 102.6px;
+
+}
+.action_gifs .prueba {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 1088px;
+}
+
+.action_gifs .button_create {
+  margin: 0 0 0 650px;
+  padding: 9px 26.5px;
+  background: #F7C9F3;
+  height: 36px;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 14px;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+}
+
+.action_gifs .button_create:hover {
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+  background: #997D97;
+}
+
+.action_gifs .button_create:active {
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+}
+
+.action_gifs .dropdown {
+  margin: 0 0 0 16px;
+}
+
+.action_gifs .dropdown:hover {
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+}
+
+.action_gifs .dropdown:active {
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+}
+
+.action_gifs .dropbtn {
+  padding: 9px 26.5px;
+  background: #F7C9F3;
+  width: 144px;
+  height: 36px;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 14px;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+}
+
+.action_gifs .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  width: 180px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.action_gifs .myButton {
+  float: none;
+  color: #110038;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background: #FFF4FD;
+  border: 1px solid #CCA6C9;
+  box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+  width: 150px;
+  height: 36px;
+  margin: 10px auto;
+}
+
+.action_gifs .myButton:active {
+  background: #F0F0F0;
+  border: 1px solid #808080;
+  box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.action_gifs .arrow {
+  width: 480px;
+  height: 36px;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  border-left: none;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.action_gifs .arrow:hover {
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+}
+
+.action_gifs .arrow:active {
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+}
+
+.action_gifs .fas {
+  background: #F7C9F3;
+}
+
+
+.fa-sort-down:before {
+  filter: invert(0%);
+}
+
+.action_gifs .title {
+  margin: 0 0 1px 16.5px;
+  font-family: "Chakra Petch";
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 18px;
+  height: 32px;
+  
+}
+
+.action_gifs .title::first-letter {
+  text-decoration: underline;
+}
+
+.action_gifs .title:hover {
+  border: 1px dotted #110038;
+}
+
+.action_gifs .title:active {
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.search_gifs {
+  padding: 0 140px 64px 100px;
+}
+
+.search_gifs #searchbox {
+  width: 1200px;
+  height: 99px;
+  padding: 37px 12px 12px 15px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.search_gifs .title_search {
+  padding: 3px 0 3px 3px;
+  margin: -34px 0 12px -10px;
+  width: 1194px;
+  height: 24px;
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  font-size: 14px;
+  color: #FFFFFF;
+  font-family: 'Chakra Petch';
+}
+
+.search_gifs .search {
+  height: 48px;
+  padding: 13px 0 13px 16px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.search_gifs .bar {
+  width: 1057px;
+}
+
+.search_gifs .search-btn {
+  height: 36px;
+  width: 102px;
+  font-size: 16px;
+  color: #B4B4B4;
+  letter-spacing: 0;
+  line-height: 18px;
+  padding: 0 0 0 8px;
+  background: #E6E6E6;
+  border: 1px solid #808080;
+  box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.search_gifs .search-btn:active {
+  background: #F7C9F3;
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+}
+
+.search_gifs img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  background: transparent;
+  opacity: 0.2;
+}
+
+.search_gifs .glass {
+  content: url(../assets/lupa.svg);
+  opacity: 100;
+}
+
+.search_gifs img:active {
+  background: #F7C9F3;
+  color: #110038;
+  background-image: url("./assets/lupa.svg");
+
+}
+
+.search_gifs .search_result {
+  display: none;
+  position: absolute;
+  min-width: 1200px;
+  z-index: 1;
+  width: 1200px;
+  height: 160px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  padding: 17px 129px 5px 16px;
+}
+
+.search_gifs .show-list-gifs {
+  display: block;
+}
+
+.search_gifs .button_search {
+  float: none;
+  color: #110038;
+  padding: 7px 0 7px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background: #F0F0F0;
+  border: 1px solid #808080;
+  box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+  width: 1055px;
+  height: 34px;
+  margin: 10px auto;
+  font-family: "Chakra Petch";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.search_gifs .button_search:hover {
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+}
+
+.search_gifs .button_search_on {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  color: #110038;
+}
+
+#buttons_suggestion {
+  display: flex;
+  margin-top: 12px;
+
+}
+
+.suggestion_button {
+
+  background: #4180F6;
+  border: 1px solid #4C2F99;
+  box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+  height: 34px;
+  width: 140px;
+  color: #FFFFFF;
+  margin-right: 8px;
+
+}
+
+.advice {
+  height: 425px;
+  padding: 0 140px 68px 104px;
+}
+
+.advice .suggestion {
+  width: 1200px;
+  height: 32px;
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+  padding: 7px 0 7px 7px;
+}
+
+.advice .all_cards {
+  display: flex;
+}
+
+.advice .card {
+  flex-direction: row;
+  width: 288px;
+  height: 313px;
+  margin: 16px 16px 0px 0px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.advice .head_image {
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  height: 24px;
+  width: 280px;
+  margin: 3px 4px 3px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+}
+
+.advice .close {
+  justify-content: center;
+  height: 14px;
+  width: 16px;
+}
+
+.advice img {
+  width: 280px;
+  height: 280px;
+  margin: 0 4px 3px 4px;
+}
+
+.advice img:hover {
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+}
+
+.advice .see_more {
+  position: relative;
+  background: #4180F6;
+  border: 1px solid #4C2F99;
+  box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+  height: 34px;
+  width: 81px;
+  top: -50px;
+  margin-left: 11px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+}
+
+.advice .see_more:hover {
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+}
+
+.tendencias {
+  padding: 0 140px 68px 104px;
+  width: 1200px;
+}
+
+.card_tendencias {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 1200px;
+}
+
+.tendencias .suggestion {
+  width: 1200px;
+  height: 32px;
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+  padding: 7px 0 7px 7px;
+}
+
+.card_trending {
+  width: 294px;
+  height: 304px;
+  margin: 17px 16px 16px 0;
+}
+
+.tendencias .card_trending:hover {
+  width: 294px;
+  height: 304px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.tendencias img {
+ 
+  width: 288px;
+  height: 298px;
+  margin: 5px 0 0 4px;
+}
+
+.tendencias .empty_space p {
+  background-color: red;
+}

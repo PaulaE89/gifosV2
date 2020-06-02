@@ -1,0 +1,698 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* background: #FCF3FD;*/
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header p {
+  width: 100%;
+  height: 23px;
+  margin: 1px;
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  box-shadow: 0 1px 0 0 #110038;
+}
+
+.create_gifs {
+  width: 1440px;
+  height: 115px;
+  padding: 39px 140px 19px 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.create_gifs .arrow_back {
+  height: 24px;
+  width: 24px;
+  padding-right: 7px;
+  display: block;
+}
+
+.create_gifs .logo {
+  height: 64px;
+  width: 102.6px;
+}
+
+.create_gifs .prueba {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 1088px;
+}
+
+.create_gifs .button_create {
+  margin: 0 0 0 650px;
+  padding: 9px 26.5px;
+  background: #F7C9F3;
+  height: 36px;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.create_gifs .button_create:hover {
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+  background: #997D97;
+}
+
+.create_gifs .button_create:active {
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+}
+
+.create_gifs .dropdown {
+  margin: 0 0 0 16px;
+}
+
+.create_gifs .dropdown:hover {
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+}
+
+.create_gifs .dropdown:active {
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+}
+
+.create_gifs .dropbtn {
+  padding: 9px 26.5px;
+  background: #F7C9F3;
+  width: 144px;
+  height: 36px;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.create_gifs .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  width: 180px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.create_gifs .myButton {
+  float: none;
+  color: #110038;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background: #FFF4FD;
+  border: 1px solid #CCA6C9;
+  box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+  width: 150px;
+  height: 36px;
+  margin: 10px auto;
+}
+
+.create_gifs .myButton:active {
+  background: #F0F0F0;
+  border: 1px solid #808080;
+  box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.create_gifs .arrow {
+  width: 480px;
+  height: 36px;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  border-left: none;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.create_gifs .arrow:hover {
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+}
+
+.create_gifs .arrow:active {
+  border: 1px dotted #110038;
+  outline-offset: -4000px;
+}
+
+.create_gifs .fas {
+  background: #F7C9F3;
+}
+
+.create_gifs .title {
+  margin: 0 0 1px 16.5px;
+  font-family: "Chakra Petch";
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 18px;
+  height: 32px;
+  opacity: 0.5;
+}
+
+.create_gifs .title::first-letter {
+  text-decoration: underline;
+}
+
+.create_gifs .title:hover {
+  border: 1px dotted #110038;
+}
+
+.create_gifs .title:active {
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.create_video {
+  margin: 78px 378px 153px 378px;
+  display: block;
+}
+
+.create_video img {
+  display: flex;
+  justify-content: flex-start;
+  height: 32px;
+  width: 32px;
+}
+
+.create_video .modal {
+  width: 684px;
+  height: 386px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  position: relative;
+}
+
+.create_video .title_create {
+  height: 24px;
+  width: 678px;
+}
+
+.create_video .title_guifos {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  padding: 3px 0 3px 3px;
+  margin: 0 0 0 3px;
+}
+
+.create_video .main_create {
+  padding: 30px 0 100px 0;
+}
+
+.create_video .file_image {
+  padding: 0 16px 230px 25px;
+  float: left;
+}
+
+.create_video .text_create_gifos {
+  float: right;
+  padding: 0 93px 28px 73px;
+  position: absolute;
+  z-index: 3;
+}
+
+.create_video p {
+  padding-top: 17px;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.create_video h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.create_video ol {
+  padding-right: 7px;
+}
+
+.create_video ol {
+  counter-reset: list;
+}
+
+.create_video ol>li {
+  list-style: none;
+  position: relative;
+  line-height: 10px;
+}
+
+.create_video ol>li:before {
+  counter-increment: list;
+  content: counter(list) ") ";
+  position: absolute;
+  left: -20px;
+  font-weight: bold;
+}
+
+.create_video li {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 22px;
+  left: 20px;
+  padding: 10px
+}
+
+.create_video .button_decide {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.create_video .close {
+  width: 144px;
+  height: 36px;
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  margin-right: 16px;
+}
+
+.create_video .start {
+  width: 144px;
+  height: 36px;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  margin-right: 36px;
+}
+
+.create_video .title_video {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  height: 24px;
+  width: 854px;
+  margin: 3px 4px 3px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.create_video .close_video {
+  justify-content: center;
+  height: 14px;
+  width: 16px;
+  margin-right: 13px;
+}
+
+.create_video #video {
+  background: black;
+  height: 434px;
+  width: 832px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  margin: 8px 14px 0 8px;
+}
+
+.create_video .buttons_take_pic {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 16px;
+  padding-top: 21px;
+}
+
+.create_video .camera_pic {
+  height: 36px;
+  width: 36px;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.create_video .camera {
+  width: 18px;
+  height: 16.5px;
+  margin: 9px 9px 10.5px 9px;
+}
+
+.create_video .take_pic {
+  width: 144px;
+  height: 36px;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.create_video .video_started_1 {
+  margin-top: 30px;
+  height: 548px;
+  width: 860px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.create_video #video_no {
+  background: black;
+  height: 434px;
+  width: 832px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  margin: 8px 14px 0 8px;
+}
+
+.create_video .timekeeper {
+  width: 124px;
+  height: 36px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  margin-right: 528px;
+}
+
+.create_video .timer {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 22px;
+  padding: 7px 13px 7px 21px;
+}
+
+.create_video .recording {
+  height: 36px;
+  width: 36px;
+  background: #FF6161;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.create_video .recording_image {
+  width: 18px;
+  height: 16.5px;
+  margin: 9px 9px 10.5px 9px;
+}
+
+.create_video .pic_done {
+  width: 144px;
+  height: 36px;
+  background: #FF6161;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.create_video #preview {
+  background: black;
+  height: 434px;
+  width: 832px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  margin: 8px 14px 0 8px;
+}
+
+.create_video .video_started_2 {
+  margin-top: 30px;
+  height: 548px;
+  width: 860px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.create_video .timekeeper_v2 {
+  margin-left: 11px;
+  width: 124px;
+  height: 36px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+}
+
+.create_video .play {
+  width: 20px;
+  height: 20px;
+  margin: auto 4px auto 24px;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.create_video .counter_time {
+  width: 250px;
+  height: 24px;
+  margin: auto 119px auto 0;
+  background: #B4B4B4;
+  box-shadow: inset -2px -2px 0 0 #FFFCFC, inset 2px 2px 0 0 #000000;
+}
+
+.create_video .square {
+  display: inline-block;
+  width: 12px;
+  height: 20px;
+  border: 1px solid #B4B4B4;
+  border-top: 0;
+  border-bottom: 0;
+  background: #999999;
+  position: relative;
+  top: 4px;
+  left: 5px;
+  margin: -2px;
+}
+
+.create_video .square:first-child {
+  margin-left: -2px;
+  border-left: 0;
+}
+
+.create_video .square:last-child {
+  border-right: 0;
+}
+
+.create_video .change_color {
+  background: #F7C9F3;
+}
+
+.create_video .play_image {
+  width: 6px;
+  height: 10px;
+  margin: auto;
+}
+
+.create_video .repeat {
+  margin-right: 14px;
+  width: 144px;
+  height: 36px;
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.create_video .up_load_gif {
+  width: 144px;
+  height: 36px;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.create_video .video_started_3 {
+  margin-top: 30px;
+  height: 548px;
+  width: 860px;
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.create_video .container_information {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 139px;
+  padding-bottom: 138px;
+}
+
+.create_video .world {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 8px;
+}
+
+.create_video .first_text {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 22px;
+  margin-bottom: 39px;
+}
+
+.create_video .counter_time_2 {
+  width: 245px;
+  height: 24px;
+  background: #B4B4B4;
+  box-shadow: inset -2px -2px 0 0 #FFFCFC, inset 2px 2px 0 0 #000000;
+}
+
+.create_video .square_1 {
+  display: inline-block;
+  width: 12px;
+  height: 20px;
+  border: 1px solid #B4B4B4;
+  border-top: 0;
+  border-bottom: 0;
+  background: #999999;
+  position: relative;
+  top: 4px;
+  margin: -2px;
+}
+
+.create_video .square_1:first-child {
+  margin-left: -2px;
+  border-left: 0;
+}
+
+.create_video .square_1:last-child {
+  border-right: 0;
+}
+
+.create_video .time_left {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 12px;
+  color: rgba(17, 0, 56, 0.64);
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 14px;
+}
+
+.create_video .delete_gif {
+  width: 144px;
+  height: 36px;
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.create_video .video_started_4 {
+  margin-top: 30px;
+  height: 391px;
+  width: 721px;
+  background: #E6E6E6;
+
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+  display: none;
+}
+
+.create_video .title_video_4 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+  height: 24px;
+  width: 715px;
+  margin: 3px 4px 3px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.create_video .container {
+  display: flex;
+}
+
+.create_video #video_4 {
+  background: black;
+  height: 196px;
+  width: 371px;
+  background: #FFFFFF;
+  border: 1px solid #979797;
+  box-shadow: inset -2px -2px 0 0 #E6E6E6, inset 2px 2px 0 0 #000000;
+  margin: 27px 24px 0 24px;
+}
+
+
+#img_up_load {
+
+  height: 196px;
+  width: 371px;
+
+}
+
+.create_video .copy_dowloand_gif {
+  width: 326px;
+  height: 196px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 49px;
+}
+
+.create_video h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.create_video .copy_link {
+  margin-top: 16px;
+  width: 256px;
+  height: 36px;
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+}
+
+.create_video .download_gif {
+  margin-top: 14px;
+  width: 256px;
+  height: 36px;
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 16px;
+  color: #110038;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+}
+
+.create_video .done {
+  height: 36px;
+  width: 144px;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+  margin-right: 30px;
+}
+
+.my_gifos {
+  padding: 0 140px 68px 104px;
+  width: 1200px;
+}
+
+.my_gifos .suggestion_my_gifos {
+  width: 1200px;
+  height: 32px;
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+  padding: 7px 0 7px 7px;
+}
